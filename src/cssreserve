@@ -55,23 +55,21 @@ html
   /* border: 2px solid red; */
   padding: 3rem;
   margin-top: 6rem;
-  height: 30rem;
 }
 
 .home-style{
-    /* background-color:#353535; */
+    background-color:#353535;
     /* position:absolute;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%); */
-    color:yellow;
+    color:white;
     text-align:center;
     font-family:consolas;
     border-radius:3rem;
     padding:1.5rem;
-    font-size: 2.3rem;
-    box-shadow:3px 3px 24px 0px #323232;
-  }
+    box-shadow:5px 5px 14px 15px #323232;
+    }
 
 /* .home-btn-todo{
   display: inline-block;
@@ -92,7 +90,7 @@ html
 .home-btn-todo {
   align-items: center;
   background-color: initial;
-  background-image: linear-gradient(rgba(202, 177, 214, 0.84), rgba(193, 177, 216, 0.84) 50%);
+  background-image: linear-gradient(rgba(202, 177, 214, 0.84), rgba(103, 96, 113, 0.84) 50%);
   border-radius: 42px;
   border-width: 0;
   /* box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px; */
@@ -109,7 +107,7 @@ html
   padding: 18px 18px;
   text-align: center;
   text-decoration: none;
-  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(79, 45, 123, 0.6) 1px 1px 4px,rgba(125, 100, 156, 0.32) 4px 4px 16px;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -132,36 +130,16 @@ html
   color: red;
 }
 
-.navbar-c
-{
-  font-size: 100px;
-}
-
 /* navbar -icons */
 /* ******************* */
 .navbar-login{
   /* color:white; */
-  color: rgb(58, 221, 58);
-}
-.navbar-signup{
-  /* color:white; */
-  color: rgb(139, 239, 238);
-}
-.navbar-logout
-{
-  color: rgb(197, 14, 14);
-  padding-right: 1rem;
+  color: rgb(82, 171, 82);
 }
 
 /* ******************** */
 
 /* login-form-styling */
-
-.login-parent
-{
-  /* border: 2px solid green; */
-  padding: 2rem 0;
-}
 
 .login-container
 {
@@ -172,18 +150,15 @@ html
   top:42%;
   left:50%;
   transform:translate(-50%,-50%); */
-  /* box-shadow:5px 5px 10px #323232; */
-  box-shadow:5px 5px 25px #382f2f;
+  box-shadow:5px 5px 14px 15px #323232;
   border-radius: 1rem;
   padding:1.5rem 4rem;
-  font-size: 2.2rem;
 
 }
 
 .login-container input{
   /* border: 2px solid rgb(9, 165, 226); */
   border-radius: 2.5rem;
-  font-size: 1.6rem;
 }
 .login-container button
 {
@@ -193,7 +168,6 @@ html
   margin: 2rem auto;
   background-color: rgb(152, 61, 152);
   color: white;
-  font-size: 1.8rem;
 }
 .login-container button:hover
 {
@@ -220,12 +194,10 @@ html
   top:50%;
   left:50%;
   transform:translate(-50%,-50%); */
-  /* box-shadow:5px 5px 14px 15px #323232; */
-  box-shadow:5px 5px 25px #382f2f;
+  box-shadow:5px 5px 14px 15px #323232;
   border-radius: 1rem;
   padding:1.5rem 2rem;
   margin-top: 20px;
-  font-size: 2rem;
 }
 .name-object
 {
@@ -235,7 +207,6 @@ html
 .signup-container input{
   /* border: 2px solid rgb(9, 165, 226); */
   border-radius: 2.5rem;
-  font-size: 1.6rem;
 }
 
 .signup-container label
@@ -251,7 +222,6 @@ html
   margin: 2rem auto;
   background-color: rgb(132, 200, 173);
   color: white;
-  font-size: 1.8rem;
 }
 .signup-container button:hover
 {
@@ -271,7 +241,7 @@ html
   height: 3px;
   position: absolute;
   left: 45px;
-  top: 7%;
+  top: 8%;
   background-color: gray;
 }
 .signup-heading::after
@@ -282,7 +252,7 @@ html
   height: 3px;
   position: absolute;
   right: 45px;
-  top: 7%;
+  top: 8%;
   background-color: gray;
 }
 
@@ -299,17 +269,14 @@ html
   top:42%;
   left:50%;
   transform:translate(-50%,-50%); */
-  /* box-shadow:5px 5px 14px 15px #323232; */
-  box-shadow:2px 0px 3px 2px #382f2f;
+  box-shadow:5px 5px 14px 15px #323232;
   border-radius: 1rem;
   padding:1.5rem 4rem;
-  font-size: 2.2rem;
 }
 
 .addtodo-container input{
   /* border: 2px solid rgb(9, 165, 226); */
   border-radius: 2.5rem;
-  font-size: 1.6rem;
 }
 .addtodo-container button
 {
@@ -318,7 +285,6 @@ html
   margin: 2rem auto;
   background-color: rgb(152, 61, 152);
   color: white;
-  font-size: 1.8rem;
   /* width: 8rem; */
 }
 .addtodo-container button:hover
@@ -342,7 +308,7 @@ html
 /* *********Alert-styling********* */
 .alert-parent
 {
-  height: 3.2rem;
+  height: 32px;
 }
 
 .alert-container
@@ -352,7 +318,7 @@ html
   /* color: rgb(186, 234, 186); */
   font-weight: 1000;
   font-family: consolas;
-  font-size: 2rem;
+  font-size: 1.2rem;
   animation: alert-animated 5.0s ease-in-out ;
   transform: translateX(100%); 
   border-radius: 20px;
@@ -388,13 +354,8 @@ html
 {
   display: flex;
   width: 100%;
-  margin-top: 2rem;
-  /* box-shadow:3px 4px 50px 7px #242323; */
-  /* box-shadow:5px 5px 25px #382f2f; */
-  box-shadow:1px 0px 1px 2px #382f2f;
-  height: 5rem;
-  border-bottom: 0.1rem solid rgb(168, 128, 59);
-  /* border-radius: 1rem; */
+  margin: 7px;
+  box-shadow:3px 4px 50px 7px #242323;
 }
 .todoitem-com-1
 {
@@ -417,9 +378,7 @@ html
   width: 5%;
   display: none;
   cursor: pointer;
-  padding-top: 1.3rem;
-  padding-left: 0.6rem;
-  color: rgb(177, 26, 26);
+  padding: 0.55rem;
   /* border: 2px solid red; */
 }
 .todoitem-container:hover .todoitem-com-3
@@ -515,7 +474,7 @@ html
   }
   .signup-heading::before,.signup-heading::after
   {
-    top: 6%;
+    top: 7%;
   }
 }
 

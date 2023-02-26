@@ -1,0 +1,189 @@
+.App {
+    text-align: center;
+  }
+  *{
+    background-color: #373737;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    /* color: white; */
+    /* background-color: #373737; */
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* styling */
+  /* ************home page************** */
+  
+  .home-style{
+      background-color:#353535;
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      color:white;
+      text-align:center;
+      font-family:consolas;
+      border-radius:3rem;
+      padding:1.5rem;
+      box-shadow:5px 5px 14px 15px #323232;
+      }
+  
+  .home-btn-todo{
+    display: inline-block;
+    padding: 0.1em 1.9em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+    font-size:2.2rem;
+    text-decoration:none;
+    color: #e63946;
+    background-color: white;
+    border-radius: 10rem;
+  }
+  .home-btn-todo:hover{
+    background-color: #ddd;
+  }
+  
+  .style-c{
+    color: red;
+  }
+  
+  /* navbar -icons */
+  /* ******************* */
+  .navbar-login{
+    /* color:white; */
+    color: rgb(82, 171, 82);
+  }
+  
+  /* ******************** */
+  
+  /* login-form-styling */
+  
+  .login-container
+  {
+    /* border: 2px solid red; */
+    width: 37rem;
+    color: white;
+    position:absolute;
+    top:42%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-shadow:5px 5px 14px 15px #323232;
+    border-radius: 1rem;
+    padding:1.5rem 4rem;
+  }
+  
+  .login-container input{
+    border: 2px solid rgb(9, 165, 226);
+    border-radius: 2.5rem;
+  }
+  .login-container button
+  {
+    /* border: 2px solid rgb(9, 165, 226); */
+    border-radius: 2.5rem;
+    width: 29rem;
+    margin: 2rem auto;
+    background-color: rgb(152, 61, 152);
+    color: white;
+  }
+  .login-container button:hover
+  {
+    background-color: rgb(189, 86, 189);
+  }
+  .login-container label
+  {
+    color: yellow;
+  }
+  
+  
+  /* ****************** */
+  
+  
+  /* signup-form styling */
+  
+  .signup-container
+  {
+    width: 37rem;
+    color: white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-shadow:5px 5px 14px 15px #323232;
+    border-radius: 1rem;
+    padding:1.5rem 4rem;
+  }
+  
+  .signup-container input{
+    border: 2px solid rgb(9, 165, 226);
+    border-radius: 2.5rem;
+  }
+  
+  .signup-container label
+  {
+    margin-top: 1rem;
+    color: yellow;
+  }
+  .signup-container button
+  {
+    /* border: 2px solid rgb(9, 165, 226); */
+    border-radius: 2.5rem;
+    width: 29rem;
+    margin: 2rem auto;
+    background-color: rgb(132, 200, 173);
+    color: white;
+  }
+  .signup-container button:hover
+  {
+    background-color: rgb(150, 205, 190);
+  }
+  
+  .signup-container h2:before, .signup-container h2:after {
+      content: "";
+      height: 2px;
+      width: 30%;
+      background: #d4d4d4;
+      position: absolute;
+      top: 4%;
+      z-index: 2;
+    margin: 1.5rem;
+  }	
+  .signup-container h2:before {
+      left: 0;
+  }
+  .signup-container h2:after {
+      right: 0;
+  }
+  
+  /* ******************* */
+  
